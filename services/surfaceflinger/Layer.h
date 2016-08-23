@@ -375,9 +375,9 @@ protected:
 
 private:
     // Interface implementation for SurfaceFlingerConsumer::ContentsChangedListener
-    virtual void onFrameAvailable(const BufferItem& item) override;
-    virtual void onFrameReplaced(const BufferItem& item) override;
-    virtual void onSidebandStreamChanged() override;
+    virtual void onFrameAvailable(const BufferItem& item);
+    virtual void onFrameReplaced(const BufferItem& item);
+    virtual void onSidebandStreamChanged();
 
     void commitTransaction();
 
@@ -463,3 +463,4 @@ private:
 }; // namespace android
 
 #endif // ANDROID_LAYER_H
+
