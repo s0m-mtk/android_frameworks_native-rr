@@ -382,4 +382,3 @@ private:
 }; // namespace android
 
 #endif // ANDROID_GUI_BUFFERQUEUE_H
-

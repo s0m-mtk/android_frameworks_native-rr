@@ -304,4 +304,3 @@ bool ConsumerBase::stillTracking(int slot,
 }
 
 } // namespace android
-

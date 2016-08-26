@@ -253,4 +253,3 @@ protected:
 }; // namespace android
 
 #endif // ANDROID_GUI_CONSUMERBASE_H
-

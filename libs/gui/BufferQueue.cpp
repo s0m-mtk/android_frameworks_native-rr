@@ -216,4 +216,3 @@ void BufferQueue::ProxyConsumerListener::onSidebandStreamChanged() {
 }
 
 }; // namespace android
-
